@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#67CA67"
+        android:text="Capture"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:translationX="150dp" />
+
+    <TextView
+        android:id="@+id/ocrText"
+        android:layout_width="363dp"
+        android:layout_height="80dp"
+        android:background="#DAEAC0"
+        android:backgroundTint="#F1D2D2"
+        android:text="Recognized text"
+        android:textAlignment="center"
+        android:textColorHighlight="#73C550"
+        android:textColorHint="#DA4949"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:translationX="25dp" />
+</LinearLayout>
